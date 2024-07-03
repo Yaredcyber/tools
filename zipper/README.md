@@ -1,6 +1,4 @@
 # ZIPPER ⚙
-![image](https://github.com/Yaredcyber/tools/assets/147349965/b1ebd5ab-6710-493b-8577-ab45dbc55250)
-
 - ## <b>This tool is developed by @yaredcyber using python<b>
 ## Feature of ZIPPER 🗒🗒
 >- ## *Bruteforce  normal of zip file password*
@@ -13,23 +11,20 @@
 <hr>
 
 # Instalation
-- *Go to the Terminal and make sure you are root 👑👑*
+
+ ### *clone the site*
 ```
-sudo su
-```
-- ### *clone the site*
-```
-git clone https://youtube.com/yaredcyber/tool/zipper
+https://github.com/Yaredcyber/tools.git
 ```
 ```
-cd zipper
+cd tools/zipper
 ```
 ```
 chmod +x install.sh
 ```
 ### *Install requrments*
 ```
-./install.sh
+cd /zipper && sudo chmod +x zipper.py
 ```
 ### *Run the program*
 ```
