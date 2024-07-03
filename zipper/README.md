@@ -14,7 +14,7 @@
 
  ### *clone the site*
 ```
-https://github.com/Yaredcyber/tools.git
+git clone https://github.com/Yaredcyber/tools.git
 ```
 
 ```
