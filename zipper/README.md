@@ -16,15 +16,14 @@
 ```
 https://github.com/Yaredcyber/tools.git
 ```
+
 ```
-cd tools/zipper
+cd tools/ && mv zipper ../ && cd .. && rm -rf tools/ && cd zipper && chmod +x install.sh && ./install.sh
+
 ```
+### *Give permission for script*
 ```
-chmod +x install.sh
-```
-### *Install requrments*
-```
-cd /zipper && sudo chmod +x zipper.py
+ sudo chmod +x zipper.py
 ```
 ### *Run the program*
 ```
