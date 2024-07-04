@@ -24,8 +24,8 @@ AMVmmmmMM .JMML..JMML.    .JMML.    .JMMmmmmMMM .JMML. .JMM.
 
 def zip():
   print("Zipping file with out encryption may case data insecur ⚠⚠")
-  folder_name = input('Enter name of folder: \n')
-  file_name = input('Enter name of your file file: \n')
+  folder_name = input('Enter name of folder (with out extension): \n')
+  file_name = input('Enter name of your file name with extension(by separating whitespace): \n')
   if os.path.exists(folder_name+'.zip'):
     print("Folder already exists")
   else:
@@ -40,8 +40,8 @@ def zip():
 
 def zip_pass():
   print("ziping file with password")
-  folder_name = input('Enter name of folder: \n')
-  file_name = input('Enter name of your file file(name with extension by separating whitespace): \n')
+  folder_name = input('Enter name of folder(without zip extension: \n')
+  file_name = input('Enter name of your file file name with extension( by separating whitespace): \n')
   password = input('Enter your password: \n')
   if os.path.exists(folder_name+'.zip'):
     print("Folder already exists")
@@ -55,8 +55,8 @@ def zip_pass():
 
 def zip_uncomp():
   print("Zipping file with out compression  \n")
-  folder_name = input('Enter name of folder: ')
-  file_name = input('Enter name of your file file: ')
+  folder_name = input('Enter name of folder(with out extension): \n')
+  file_name = input('Enter name of your file file: \n')
   if os.path.exists(folder_name+'.zip'):
     with pyzipper.AESZipFile(folder_name+'.zip','w') as zip:
      data = file_name.split()
@@ -66,7 +66,7 @@ def zip_uncomp():
 
 def unzip_pass():
     print("Unzipping file with password")
-    folder_name = input('Enter the zipped folder name: \n')
+    folder_name = input('Enter the zipped folder name(without extenaion): \n')
     save = input('Enter the name of the directory to save unzipped data: \n')
     password = input('Enter your password: \n')
 
@@ -86,7 +86,7 @@ def unzip_pass():
 
 def unzip():
   print("Unziping file with out password")
-  folder_name = input('Enter ziped folder name : \n')
+  folder_name = input('Enter ziped folder name (without extension): \n')
   save = input('Enter name of your unziped data save: \n')
   if os.path.exists(save+'.zip'):
     print("Folder already exists")
@@ -189,7 +189,7 @@ while True:
       print('--help = To show commands and their uses \n')
       print('clear = To clear the screen \n')
     elif choice == 'exit':
-      print("Thnakyou for your choice  please follow x and github account")
+      print("Thnakyou for your choice  please follow  in X  and github  account ")
       break
     else:
       print("Please Enter  --help  to see more option ")
