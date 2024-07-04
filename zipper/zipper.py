@@ -41,8 +41,8 @@ def zip():
 def zip_pass():
   print("ziping file with password")
   folder_name = input('Enter name of folder: \n')
-  file_name = input('Enter name of your file file: \n')
-  password = input('Enter your password')
+  file_name = input('Enter name of your file file(name with extension by separating whitespace): \n')
+  password = input('Enter your password: \n')
   if os.path.exists(folder_name+'.zip'):
     print("Folder already exists")
   else:
