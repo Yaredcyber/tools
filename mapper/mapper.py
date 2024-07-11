@@ -48,6 +48,7 @@ def main():
     for port in range(start_port, end_port + 1):
         port_scanner(ip_address, port, timeout)
     if browse == 'g':
+        print("Opeaning your defult browser ........")
         webbrowser.open_new_tab('https://github.com/yaredcyber/Notes')
     else:
         pass
