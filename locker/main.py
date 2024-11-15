@@ -38,8 +38,7 @@ def encrypt_file(p_word):
 
     with open(fileName, 'rb') as file:
         original = file.read()
-    encrypted = fernet.encrypt(origi
-                               nal)
+    encrypted = fernet.encrypt(original)
 
     with open(fileName, 'wb') as encrypted_file:
         encrypted_file.write(encrypted)
