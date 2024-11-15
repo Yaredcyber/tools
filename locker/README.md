@@ -6,7 +6,7 @@
 ### Requirments
 - Installing  python moduels
 ```shell
-pip install tkintercustomtkinter base64 hashlib functools 
+pip install tkinter customtkinter base64 hashlib functools 
 ```
 ### previews 
 ![image](https://github.com/user-attachments/assets/e642a736-3d46-4ad1-bfb3-68443b9a1373)
