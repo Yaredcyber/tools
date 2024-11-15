@@ -10,3 +10,4 @@ pip install tkinter customtkinter base64 hashlib functools
 ```
 ### previews 
 ![image](https://github.com/user-attachments/assets/e642a736-3d46-4ad1-bfb3-68443b9a1373)
+![image](https://github.com/user-attachments/assets/b5ede479-7fdb-43d6-967b-9c88b11234bc)
