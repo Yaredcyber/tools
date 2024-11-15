@@ -1,5 +1,5 @@
 # Locker  
-- This python file developed by Yare Agizew
+- This python file developed by Yared
 - Used to  secure users data using Advanced Encryption system
 - It has Password  entry use for secure you file
 - It can secure all types  of files .
